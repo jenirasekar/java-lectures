@@ -1,17 +1,17 @@
+import java.util.Scanner;
+
 public class DisplayTime {
     public static void main(String[] args) {
-        int time;
-        int second;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please input seconds");
+        int second = input.nextInt();
         int minute;
         int remaining_seconds;
 
-        time = 87;
-        second = 60;
+        minute = second / 60;
+        remaining_seconds = second % 60;
 
-        minute = time / second;
-        remaining_seconds = time % second;
-
-        System.out.println("87 seconds equals to " + minute + " minute(s)");
-        System.out.println("and the remaining second is " + remaining_seconds + " seconds");
+        System.out.println("The minutes of " + second + " second is " + minute
+                + ", the remaining second is " + remaining_seconds);
     }
 }
