@@ -12,5 +12,11 @@ public class AdditionQuiz {
         int answer = input.nextInt();
 
 //        System.out.println(number1 + " + " + number2 + " = " + answer + " is " + (number1 + number2 == answer));
+        if (number1 + number2 == answer) {
+            System.out.println("You are great");
+        }
+        if (number1 + number2 != answer) {
+            System.out.println("You are wrong, please try again");
+        }
     }
 }

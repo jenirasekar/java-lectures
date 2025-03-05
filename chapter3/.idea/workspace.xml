@@ -34,7 +34,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.SimpleIfDemo">
+  <component name="RunManager" selected="Application.AdditionQuiz">
     <configuration name="AdditionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdditionQuiz" />
       <module name="L03_Selection" />
@@ -51,8 +51,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleIfDemo" />
         <item itemvalue="Application.AdditionQuiz" />
+        <item itemvalue="Application.SimpleIfDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741134367327</updated>
-      <workItem from="1741134369438" duration="2059000" />
+      <workItem from="1741134369438" duration="2527000" />
     </task>
     <servers />
   </component>
