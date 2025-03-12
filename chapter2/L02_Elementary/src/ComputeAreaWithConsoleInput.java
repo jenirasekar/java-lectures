@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package PACKAGE_NAME;public class ComputeAreaWithConsoleInput {
-=======
 import  java.util.Scanner;
 
 public class ComputeAreaWithConsoleInput {
@@ -16,5 +13,4 @@ public class ComputeAreaWithConsoleInput {
 
         System.out.println("The area for the circle of radius " + radius + " is " + area);
     }
->>>>>>> 6055ba3f4cf7fc953fedf8c17164d4f38b31ee46
 }
