@@ -9,6 +9,17 @@ public class TestMax {
         return result;
     }
 
+    public static double max(double num1, double num2) {
+        System.out.println("This is the double version of max");
+        double result;
+        if (num1 > num2){
+            result = num1;
+        } else {
+            result = num2;
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int i = 98;
         int j = 45;
