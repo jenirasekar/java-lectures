@@ -24,5 +24,14 @@ public class InitializeWithRandomNumber {
             }
         }
         System.out.println("Sum of the array is " + total);
+
+        // summing all the elements by column
+        for (int col = 0; col < matrix[0].length; col++) {
+            int columnTotal = 0;
+            for (int row  = 0; row < matrix.length; row++) {
+                columnTotal =+ matrix[row][col];
+            }
+        System.out.println("The sum of column " + col + " is " + columnTotal);
+        }
     }
 }
